@@ -92,3 +92,29 @@ body {
     top: 49%;
     left: 111%;
 }
+
+.skills {}
+
+.s-heading {
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 800;
+    margin-left: 45%;
+    margin-bottom: 20px;
+
+}
+
+.skill-item {
+    width: 10%;
+    height: auto;
+    margin: 30px 100px 30px 150px;
+
+}
+
+.skill-icon {
+
+    border-radius: 15px;
+    border: 2px solid yellow;
+
+
+}
