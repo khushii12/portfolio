@@ -1,0 +1,94 @@
+body {
+    padding: 7px 80px;
+}
+
+.i {
+    display: flex;
+    height: 100vh;
+}
+
+.i-left {
+    flex: 1;
+}
+
+.i-right {
+    flex: 1;
+    position: relative;
+    bottom: 8%;
+}
+
+.i-left-wrapper {
+    padding: 150px 0 0 20px;
+
+}
+
+.i-intro {
+
+    font-size: 30px;
+    display: inline;
+}
+
+.i-name {
+    font-family: 'Kaushan Script',
+        cursive;
+    color: #FF5C8D;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.i-desc {
+    display: block;
+
+    font-family: 'Poppins',
+        sans-serif;
+    color: gray;
+    font-size: 17px;
+    position: absolute;
+}
+
+.navbar {
+    float: right;
+    right: 5%;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px;
+    align-items: right;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.contact-btn {
+    margin-left: 15px;
+}
+
+.i-img {
+    width: 84.1%;
+    height: auto;
+    object-fit: cover;
+    margin-left: 300px;
+    position: absolute;
+    right: -180px;
+    top: 16%;
+}
+
+.i-bg1 {
+    clip-path: circle(50% at 50% 50%);
+    height: 230px;
+    width: 230px;
+    background-color: #FFE194;
+    position: absolute;
+    top: 27%;
+    left: 65%;
+}
+
+.i-bg2 {
+    clip-path: circle(50% at 50% 50%);
+    height: 230px;
+    width: 230px;
+    background-color: #FFADAD;
+    position: absolute;
+    top: 49%;
+    left: 111%;
+}
