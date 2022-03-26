@@ -147,3 +147,65 @@ body {
     width: 100%;
     height: auto;
 }
+
+.contact {
+    height: 100vh;
+    padding: 50px;
+
+}
+
+
+
+
+.c-left {
+    /* flex: 1; */
+    padding-left: 10%;
+}
+
+.c-form {
+
+    /* flex: 1; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    border-radius: 15px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+.c-info {
+    margin-left: 24%;
+
+
+}
+
+.c-icon {
+
+    margin: 50px;
+    float: left;
+    width: 35px;
+    height: auto;
+}
+
+form {
+
+    margin-top: 20px;
+    display: inline;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+textarea {
+    width: 100%;
+    padding-left: 10px;
+    margin: 20px 0;
+}

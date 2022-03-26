@@ -10,6 +10,7 @@ const App = () => {
       <Intro />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 };
