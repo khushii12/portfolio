@@ -1,10 +1,13 @@
 body {
     padding: 7px 80px;
+    background-color: black;
+
 }
 
 .i {
     display: flex;
     height: 100vh;
+
 }
 
 .i-left {
@@ -95,26 +98,52 @@ body {
 
 .skills {}
 
-.s-heading {
+.heading {
     font-family: 'Poppins',
         sans-serif;
     font-weight: 800;
-    margin-left: 45%;
-    margin-bottom: 20px;
+    /* margin-left: 45%; */
+    margin: 50px 0;
+    text-align: center;
 
 }
 
 .skill-item {
     width: 10%;
     height: auto;
-    margin: 30px 100px 30px 150px;
+    margin: 30px 50px 30px 60px;
 
 }
 
-.skill-icon {
 
+.proj-heading {}
+
+
+
+.column {
+    float: left;
+    width: 25%;
+    margin-left: 75px;
+
+}
+
+.row {
+    margin-left: 100px;
+}
+
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #ffffff;
     border-radius: 15px;
-    border: 2px solid yellow;
+}
 
-
+.proj-img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
 }
