@@ -1,6 +1,7 @@
 body {
     padding: 7px 80px;
     background-color: black;
+    position: relative;
 
 }
 
@@ -176,7 +177,7 @@ body {
 }
 
 .c-info {
-    margin-left: 24%;
+    margin-left: 30%;
 
 
 }
@@ -195,11 +196,11 @@ form {
     display: inline;
 }
 
-input {
+.input {
     width: 50%;
     height: 50px;
     border: none;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid black;
     padding-left: 10px;
     margin: 10px 0;
 }

@@ -6,7 +6,9 @@ import planx from "../img/planx.jpg";
 const Projects = () => {
   return (
     <div class="proj">
-      <h1 class="heading">My Projects</h1>
+      <h1 id="scrollspyHeading1" class="heading">
+        My Projects
+      </h1>
       <div class="row">
         <div class="column">
           <div class="card card1">
@@ -16,7 +18,15 @@ const Projects = () => {
             <img src={cookie} alt="icon" className="proj-img" />
 
             <p>A complete hands-free experience to operate a system.</p>
-            <button class="btn btn-light">Github Link</button>
+            {/* <button
+              onclick="window.open('https://github.com/khushii12/Cookie','_blank','resizable=yes')"
+              onclass="btn btn-light"
+            >
+              Github Link
+            </button> */}
+            <a href="https://github.com/khushii12/Cookie" target="_">
+              <input type="button" value="Github Link" class="btn btn-light" />
+            </a>
           </div>
         </div>
         <div class="column">
@@ -27,7 +37,9 @@ const Projects = () => {
             </h4>
             <img src={planx} alt="icon" className="proj-img" />
             <p>An Android App to plan your day, projects, tasks etc. easily!</p>
-            <button class="btn btn-light">Github Link</button>
+            <a href="https://github.com/khushii12/PlanX-1" target="_">
+              <input type="button" value="Github Link" class="btn btn-light" />
+            </a>
           </div>
         </div>
         <div class="column">
@@ -38,7 +50,9 @@ const Projects = () => {
             <img src={hoppy} alt="icon" className="proj-img" />
 
             <p>A 2D scrolling game developed using pygame.</p>
-            <button class="btn btn-light">Github Link</button>
+            <a href="https://github.com/khushii12/Hoppy" target="_">
+              <input type="button" value="Github Link" class="btn btn-light" />
+            </a>
           </div>
         </div>
       </div>
