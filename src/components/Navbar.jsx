@@ -3,14 +3,18 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <h3 className="nav-item">Home</h3>
-      <a class="nav-link" href="#scrollspyHeading1">
+      <a class="nav-item" href="#scrollspyHeading1">
+        Home
+      </a>
+      <a class="nav-item" href="#scrollspyHeading3">
         Projects
       </a>
-      <h3 className="nav-item">About</h3>
-      {/* <h3 className="nav-item">Projects</h3> */}
-      <h3 className="nav-item">Skills</h3>
-      <button className="btn btn-default contact-btn">Contact</button>
+      <a class="nav-item" href="#scrollspyHeading2">
+        About
+      </a>
+      <a class="nav-item" href="#scrollspyHeading4">
+        Contact Me
+      </a>
     </div>
   );
 };

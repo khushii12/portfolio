@@ -1,6 +1,7 @@
 body {
-    padding: 7px 80px;
-    background-color: black;
+    /* padding: 7px 80px;
+    background-color: black; */
+    padding-left: 10px;
     position: relative;
 
 }
@@ -13,6 +14,7 @@ body {
 
 .i-left {
     flex: 1;
+    padding-left: 20px;
 }
 
 .i-right {
@@ -22,7 +24,8 @@ body {
 }
 
 .i-left-wrapper {
-    padding: 150px 0 0 20px;
+    padding: 200px 0 0 80px;
+
 
 }
 
@@ -46,8 +49,8 @@ body {
     font-family: 'Poppins',
         sans-serif;
     color: gray;
-    font-size: 17px;
-    position: absolute;
+    font-size: 2rem;
+    position: relative;
 }
 
 .navbar {
@@ -60,6 +63,7 @@ body {
     padding: 10px;
     align-items: right;
     font-size: medium;
+    color: gray;
     font-weight: bold;
 }
 
@@ -68,13 +72,13 @@ body {
 }
 
 .i-img {
-    width: 84.1%;
+    width: 100%;
     height: auto;
     object-fit: cover;
-    margin-left: 300px;
-    position: absolute;
-    right: -180px;
-    top: 16%;
+    margin-top: 150px;
+    position: relative;
+    left: 250px;
+    ;
 }
 
 .i-bg1 {
@@ -97,7 +101,7 @@ body {
     left: 111%;
 }
 
-.skills {}
+
 
 .heading {
     font-family: 'Poppins',
@@ -109,6 +113,10 @@ body {
 
 }
 
+.skill-icon {
+    padding-left: 30px;
+}
+
 .skill-item {
     width: 10%;
     height: auto;
@@ -117,7 +125,6 @@ body {
 }
 
 
-.proj-heading {}
 
 
 
@@ -209,4 +216,47 @@ textarea {
     width: 100%;
     padding-left: 10px;
     margin: 20px 0;
+}
+
+@media (max-width:768px) {
+    body {
+        /* padding: 7px 80px; */
+        /* background-color: black; */
+        position: relative;
+
+    }
+
+    .i-img {
+        width: auto;
+        height: 50%;
+        position: relative;
+
+    }
+
+    .i-intro {
+
+        font-size: 30px;
+        display: inline;
+    }
+
+    .i-name {
+        font-family: 'Kaushan Script',
+            cursive;
+        color: #FF5C8D;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .i-desc {
+        display: block;
+
+        font-family: 'Poppins',
+            sans-serif;
+        color: gray;
+        font-size: 1.5rem;
+        position: relative;
+
+    }
+
+
 }
