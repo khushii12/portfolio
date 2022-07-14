@@ -1,0 +1,262 @@
+body {
+    /* padding: 7px 80px;
+    background-color: black; */
+    padding-left: 10px;
+    position: relative;
+
+}
+
+.i {
+    display: flex;
+    height: 100vh;
+
+}
+
+.i-left {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.i-right {
+    flex: 1;
+    position: relative;
+    bottom: 8%;
+}
+
+.i-left-wrapper {
+    padding: 200px 0 0 80px;
+
+
+}
+
+.i-intro {
+
+    font-size: 30px;
+    display: inline;
+}
+
+.i-name {
+    font-family: 'Kaushan Script',
+        cursive;
+    color: #FF5C8D;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.i-desc {
+    display: block;
+
+    font-family: 'Poppins',
+        sans-serif;
+    color: gray;
+    font-size: 2rem;
+    position: relative;
+}
+
+.navbar {
+    float: right;
+    right: 5%;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px;
+    align-items: right;
+    font-size: medium;
+    color: gray;
+    font-weight: bold;
+}
+
+.contact-btn {
+    margin-left: 15px;
+}
+
+.i-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 150px;
+    position: relative;
+    left: 250px;
+    ;
+}
+
+.i-bg1 {
+    clip-path: circle(50% at 50% 50%);
+    height: 230px;
+    width: 230px;
+    background-color: #FFE194;
+    position: absolute;
+    top: 27%;
+    left: 65%;
+}
+
+.i-bg2 {
+    clip-path: circle(50% at 50% 50%);
+    height: 230px;
+    width: 230px;
+    background-color: #FFADAD;
+    position: absolute;
+    top: 49%;
+    left: 111%;
+}
+
+
+
+.heading {
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: 800;
+    /* margin-left: 45%; */
+    margin: 50px 0;
+    text-align: center;
+
+}
+
+.skill-icon {
+    padding-left: 30px;
+}
+
+.skill-item {
+    width: 10%;
+    height: auto;
+    margin: 30px 50px 30px 60px;
+
+}
+
+
+
+
+
+.column {
+    float: left;
+    width: 25%;
+    margin-left: 75px;
+
+}
+
+.row {
+    margin-left: 100px;
+}
+
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.proj-img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+.contact {
+    height: 100vh;
+    padding: 50px;
+
+}
+
+
+
+
+.c-left {
+    /* flex: 1; */
+    padding-left: 10%;
+}
+
+.c-form {
+
+    /* flex: 1; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    border-radius: 15px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+
+}
+
+.c-info {
+    margin-left: 30%;
+
+
+}
+
+.c-icon {
+
+    margin: 50px;
+    float: left;
+    width: 35px;
+    height: auto;
+}
+
+form {
+
+    margin-top: 20px;
+    display: inline;
+}
+
+.input {
+    width: 50%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+textarea {
+    width: 100%;
+    padding-left: 10px;
+    margin: 20px 0;
+}
+
+@media (max-width:768px) {
+    body {
+        /* padding: 7px 80px; */
+        /* background-color: black; */
+        position: relative;
+
+    }
+
+    .i-img {
+        width: auto;
+        height: 50%;
+        position: relative;
+
+    }
+
+    .i-intro {
+
+        font-size: 30px;
+        display: inline;
+    }
+
+    .i-name {
+        font-family: 'Kaushan Script',
+            cursive;
+        color: #FF5C8D;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    .i-desc {
+        display: block;
+
+        font-family: 'Poppins',
+            sans-serif;
+        color: gray;
+        font-size: 1.5rem;
+        position: relative;
+
+    }
+
+
+}
